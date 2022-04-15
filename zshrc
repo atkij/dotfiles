@@ -20,5 +20,3 @@ antigen bundle gradle/gradle-completion
 antigen theme robbyrussell
 
 antigen apply
-
-PATH=$PATH:/usr/sbin:/opt/gradle/gradle-7.3.3/bin

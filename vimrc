@@ -96,48 +96,33 @@ if has('langmap') && exists('+langremap')
   set nolangremap
 endif
 
-" vundle stuff
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin()
 
 " My plugins
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'notpratheek/vim-luna'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'mhinz/vim-signify'
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
-" Plugin 'tmsvg/pear-tree'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'notpratheek/vim-luna'
+Plug 'airblade/vim-gitgutter'
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'captbaritone/better-indent-support-for-php-with-html'
+Plug 'rust-lang/rust.vim'
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
+call plug#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
 " My config
-let g:airline_theme='luna'
+let g:airline_theme = 'luna'
+let g:airline_powerline_fonts = 1
 colorscheme luna-term
-set nowrap
+set wrap
 set number
-set noshowmode
 syntax enable
+set noshowmode
 let g:airline_section_z = '%p%% %l,%c'
 set updatetime=100
+set autoindent
+set smartindent
+
