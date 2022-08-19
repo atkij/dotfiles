@@ -23,4 +23,3 @@ antigen apply
 
 #Fix problems with path
 PATH="$HOME/.local/bin:/sbin:$PATH"
-
