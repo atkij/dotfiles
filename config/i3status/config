@@ -1,0 +1,48 @@
+general {
+	output_format = "i3bar"
+	interval = 1
+	colors = true
+	color_good = "#4E9A06"
+	color_degraded = "#C4A000"
+	color_bad = "#CD0000"
+}
+
+order += "wireless wlan0"
+order += "cpu_temperature 0"
+order += "cpu_usage"
+order += "memory"
+order += "volume master"
+order += "tztime local"
+
+wireless wlan0 {
+	format_up = "W: %ip @ %essid"
+	format_down = "W: down"
+}
+
+cpu_temperature 0 {
+	format = "T: %degrees°C"
+	max_threshold = 60
+}
+
+cpu_usage {
+	format = "CPU: %usage"
+	max_threshold = 75
+	degraded_threshold = 25
+}
+
+memory {
+	format = "M: %percentage_used"
+	threshold_degraded = "75%"
+	threshold_critical = "25%"
+}
+
+volume master {
+	format = "V: %volume"
+	format_muted = "V: muted"
+	device = "pulse"
+}
+
+tztime local {
+	format = "%H:%M"
+}
+
