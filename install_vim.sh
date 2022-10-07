@@ -1,33 +1,11 @@
-rm -rf temp/
+# delete old conflicting vim conig
+rm -rf $HOME/.vim
+rm -f .vimrc
 
-# set up .vim directories for plugins
-mkdir -p $HOME/.vim/autoload
-mkdir -p $HOME/.vim/plugin
-mkdir -p $HOME/.vim/colors
-mkdir -p $HOME/.vim/doc
-
-# copy vimrc
+# copy files to home directory
+cp -r vim $HOME/.vim
 cp vimrc $HOME/.vimrc
 
-# set up temporary folder
-mkdir temp
-cd temp
-
-# install airline status bar
-git clone https://github.com/vim-airline/vim-airline.git
-cd vim-airline
-cp -r autoload/* $HOME/.vim/autoload
-cp -r plugin/* $HOME/.vim/plugin
-cp -r doc/* $HOME/.vim/doc
-cd ../
-
-# install sonokai theme
-git clone https://github.com/sainnhe/sonokai.git
-cd sonokai
-cp -r autoload/* $HOME/.vim/autoload
-cp -r colors/* $HOME/.vim/colors
-cp -r doc/* $HOME/.vim/doc
-cd ../
-
-# generate helptags
-vim --cmd "helptags $HOME/.vim/doc" --cmd 'x'
+# for each plugin, generate helptags
+vim --cmd "helptags $HOME/.vim/pack/plugins/start/vim-airline/doc" --cmd "x"
+vim --cmd "helptags $HOME/.vim/pack/colors/start/sonokai/doc" --cmd "x"
