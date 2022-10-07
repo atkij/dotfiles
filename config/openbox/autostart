@@ -1,3 +1,4 @@
+.local/bin/obmenu &
 ~/.fehbg &
 picom &
 dunst &

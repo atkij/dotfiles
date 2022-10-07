@@ -1,0 +1,3 @@
+#!/bin/sh
+
+$HOME/.local/share/obamenu.py > $HOME/.config/openbox/obamenu.xml
