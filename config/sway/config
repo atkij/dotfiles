@@ -19,7 +19,7 @@ set $gnome-schema org.gnome.desktop.interface
 
 # set background
 #exec feh --no-fehbg --bg-fill --geometry +0-0 $HOME/.config/sway/resources/background2.jpg
-output * background $HOME/.config/sway/resources/background2.jpg fill
+output * background $HOME/.local/share/wallpapers/background2.jpg fill
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status

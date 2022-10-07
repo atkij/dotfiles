@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-center '/home/joel/.local/share/wallpapers/background2.jpg' 
