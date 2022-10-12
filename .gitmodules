@@ -4,3 +4,12 @@
 [submodule "vim/pack/colors/start/sonokai"]
 	path = vim/pack/colors/start/sonokai
 	url = https://github.com/sainnhe/sonokai.git
+[submodule "vim/pack/plugins/start/syntastic"]
+	path = vim/pack/plugins/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim/pack/plugins/start/tagbar"]
+	path = vim/pack/plugins/start/tagbar
+	url = https://github.com/preservim/tagbar.git
+[submodule "vim/pack/plugins/start/rust.vim"]
+	path = vim/pack/plugins/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
