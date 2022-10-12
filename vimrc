@@ -36,6 +36,19 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+" Configure syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+" Configure tagvar
+nmap <F8> :TagbarToggle<CR>
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+
 " Enable sonokai theme
 let g:sonokai_style = 'default'
 let g:sonokai_better_performance = 1

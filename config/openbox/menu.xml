@@ -21,7 +21,7 @@
 	</item>
 	<item label="Reload menu">
 		<action name="Execute">
-			<command>.local/bin/obmenu</command>
+			<execute>.local/bin/obmenu</execute>
 		</action>
 	</item>
 	<item label="Reconfigure">
