@@ -205,22 +205,22 @@
 		</keybind>
 
 		<!-- Go to desktops -->
-		<keybind key="A-F1">
+		<keybind key="A-1">
 			<action name="GoToDesktop">
 				<to>1</to>
 			</action>
 		</keybind>
-		<keybind key="A-F2">
+		<keybind key="A-2">
 			<action name="GoToDesktop">
 				<to>2</to>
 			</action>
 		</keybind>
-		<keybind key="A-F3">
+		<keybind key="A-3">
 			<action name="GoToDesktop">
 				<to>3</to>
 			</action>
 		</keybind>
-		<keybind key="A-F4">
+		<keybind key="A-4">
 			<action name="GoToDesktop">
 				<to>4</to>
 			</action>
