@@ -183,22 +183,22 @@
 		<chainQuitKey>C-g</chainQuitKey>
 
 		<!-- Send apps to different desktops -->
-		<keybind key="A-S-F1">
+		<keybind key="A-S-1">
 			<action name="SendToDesktop">
 				<to>1</to>
 			</action>
 		</keybind>
-		<keybind key="A-S-F2">
+		<keybind key="A-S-2">
 			<action name="SendToDesktop">
 				<to>2</to>
 			</action>
 		</keybind>
-		<keybind key="A-S-F3">
+		<keybind key="A-S-3">
 			<action name="SendToDesktop">
 				<to>3</to>
 			</action>
 		</keybind>
-		<keybind key="A-S-F4">
+		<keybind key="A-S-4">
 			<action name="SendToDesktop">
 				<to>4</to>
 			</action>
