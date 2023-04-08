@@ -1,0 +1,169 @@
+<openbox_pipe_menu>
+<menu id="openbox-Editors" label="Editors" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-development-web.svg">
+<item label="Gaphor" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.gaphor.Gaphor.svg" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=gaphor --file-forwarding org.gaphor.Gaphor @@ %f @@]]></command></action></item>
+<item label="Geany" icon="/usr/share/pixmaps/geany.xpm" ><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+<item label="GTK+ Demo" icon="/usr/share/icons/Papirus-Light/48x48/categories/gtk3-demo.svg" ><action name="Execute"><command><![CDATA[gtk3-demo]]></command></action></item>
+<item label="Pulsar" icon="/usr/share/icons/hicolor/48x48/apps/pulsar.png" ><action name="Execute"><command><![CDATA[/opt/Pulsar/pulsar]]></command></action></item>
+<item label="Python (v3.9)" icon="/usr/share/pixmaps/python3.9.xpm" ><action name="Execute"><command><![CDATA[xterm -e /usr/bin/python3.9]]></command></action></item>
+<item label="Qt 5 Assistant" icon="/usr/share/icons/Papirus-Light/48x48/categories/assistant-qt5.svg" ><action name="Execute"><command><![CDATA[/usr/lib/qt5/bin/assistant]]></command></action></item>
+<item label="Qt 5 Designer" icon="/usr/share/icons/Papirus-Light/48x48/categories/designer-qt5.svg" ><action name="Execute"><command><![CDATA[/usr/lib/qt5/bin/designer]]></command></action></item>
+<item label="Qt 5 Linguist" icon="/usr/share/icons/Papirus-Light/48x48/categories/linguist-qt5.svg" ><action name="Execute"><command><![CDATA[/usr/lib/qt5/bin/linguist]]></command></action></item>
+<item label="Sonic Pi" icon="/usr/share/pixmaps/sonic-pi.png" ><action name="Execute"><command><![CDATA[sonic-pi]]></command></action></item>
+<item label="Thonny" icon="/usr/share/icons/Papirus-Light/48x48/categories/thonny.svg" ><action name="Execute"><command><![CDATA[/usr/bin/thonny]]></command></action></item>
+<item label="VSCodium" icon="/usr/share/pixmaps/vscodium.png" ><action name="Execute"><command><![CDATA[/usr/share/codium/codium --unity-launch]]></command></action></item>
+<item label="VSCodium - URL Handler" icon="/usr/share/pixmaps/vscodium.png" ><action name="Execute"><command><![CDATA[/usr/share/codium/codium --open-url]]></command></action></item>
+<item label="Widget Factory" icon="/usr/share/icons/Papirus-Light/48x48/categories/gtk3-widget-factory.svg" ><action name="Execute"><command><![CDATA[gtk3-widget-factory]]></command></action></item>
+</menu>
+<menu id="openbox-Engineering" label="Engineering" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-engineering.svg">
+<item label="FreeCAD" icon="/usr/share/pixmaps/freecad.xpm" ><action name="Execute"><command><![CDATA[/usr/bin/freecad --single-instance]]></command></action></item>
+<item label="OpenSCAD" icon="/usr/share/icons/Papirus-Light/48x48/categories/openscad.svg" ><action name="Execute"><command><![CDATA[openscad]]></command></action></item>
+</menu>
+<menu id="openbox-Games" label="Games" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-games.svg">
+<item label="Minecraft: Pi Edition: Reborn (Client)" icon="/var/lib/flatpak/exports/share/icons/hicolor/scalable/apps/com.thebrokenrail.MCPIReborn.png" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=minecraft-pi-reborn-client com.thebrokenrail.MCPIReborn]]></command></action></item>
+<item label="NBTExplorer" icon="/var/lib/flatpak/exports/share/icons/hicolor/128x128/apps/com.jaquadro.NBTExplorer.png" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=nbtexplorer com.jaquadro.NBTExplorer]]></command></action></item>
+<item label="SuperTux 2" icon="/usr/share/icons/Papirus-Light/48x48/categories/supertux2.svg" ><action name="Execute"><command><![CDATA[supertux2]]></command></action></item>
+</menu>
+<menu id="openbox-Graphics" label="Graphics" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-graphics.svg">
+<item label="Blender" icon="/usr/share/icons/Papirus-Light/48x48/categories/blender.svg" ><action name="Execute"><command><![CDATA[blender]]></command></action></item>
+<item label="Color Picker" icon="/usr/share/icons/Papirus-Light/48x48/categories/nl.hjdskes.gcolor3.svg" ><action name="Execute"><command><![CDATA[gcolor3]]></command></action></item>
+<item label="FreeCAD" icon="/usr/share/pixmaps/freecad.xpm" ><action name="Execute"><command><![CDATA[/usr/bin/freecad --single-instance]]></command></action></item>
+<item label="Gnome Paint Drawing Editor" icon="/usr/share/icons/hicolor/16x16/apps/gp.png" ><action name="Execute"><command><![CDATA[gnome-paint]]></command></action></item>
+<item label="GNU Image Manipulation Program" icon="/usr/share/icons/Papirus-Light/48x48/categories/gimp.svg" ><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+<item label="Image Viewer" icon="/usr/share/icons/Papirus-Light/48x48/categories/gpicview.svg" ><action name="Execute"><command><![CDATA[gpicview]]></command></action></item>
+<item label="ImageMagick (color Depth=q16)" icon="/usr/share/pixmaps/display-im6.q16.xpm" ><action name="Execute"><command><![CDATA[/usr/bin/display-im6.q16 -nostdin]]></command></action></item>
+<item label="Inkscape" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.inkscape.Inkscape.svg" ><action name="Execute"><command><![CDATA[inkscape]]></command></action></item>
+<item label="KolourPaint" icon="/usr/share/icons/Papirus-Light/48x48/categories/kolourpaint.svg" ><action name="Execute"><command><![CDATA[kolourpaint]]></command></action></item>
+<item label="LibreOffice Draw" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-draw.svg" ><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="OpenOrienteering Mapper" icon="/usr/share/icons/hicolor/48x48/apps/Mapper.png" ><action name="Execute"><command><![CDATA[Mapper]]></command></action></item>
+<item label="OpenSCAD" icon="/usr/share/icons/Papirus-Light/48x48/categories/openscad.svg" ><action name="Execute"><command><![CDATA[openscad]]></command></action></item>
+<item label="Scribus" icon="/usr/share/icons/Papirus-Light/48x48/categories/scribus.svg" ><action name="Execute"><command><![CDATA[scribus]]></command></action></item>
+<item label="Synfig Studio" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.synfig.SynfigStudio.svg" ><action name="Execute"><command><![CDATA[synfigstudio]]></command></action></item>
+<item label="Synfig Studio" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.synfig.SynfigStudio.svg" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=synfigstudio --file-forwarding org.synfig.SynfigStudio @@ %F @@]]></command></action></item>
+</menu>
+<menu id="openbox-Internet" label="Internet" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-internet.svg">
+<item label="Bookmark Editor" icon="/usr/share/icons/Papirus-Light/24x24/actions/bookmarks-organize.svg" ><action name="Execute"><command><![CDATA[keditbookmarks]]></command></action></item>
+<item label="Chromium Web Browser" icon="/usr/share/pixmaps/chromium-browser.png" ><action name="Execute"><command><![CDATA[chromium-browser]]></command></action></item>
+<item label="Dillo" icon="/usr/share/pixmaps/dillo.xpm" ><action name="Execute"><command><![CDATA[dillo]]></command></action></item>
+<item label="Firefox ESR" icon="/usr/share/icons/Papirus-Light/48x48/categories/firefox-esr.svg" ><action name="Execute"><command><![CDATA[/usr/lib/firefox-esr/firefox-esr]]></command></action></item>
+<item label="KDE Connect" icon="/usr/share/icons/Papirus-Light/48x48/categories/kdeconnect.svg" ><action name="Execute"><command><![CDATA[kdeconnect-app]]></command></action></item>
+<item label="KDE Connect Indicator" icon="/usr/share/icons/Papirus-Light/48x48/categories/kdeconnect.svg" ><action name="Execute"><command><![CDATA[kdeconnect-indicator]]></command></action></item>
+<item label="KDE Connect SMS" icon="/usr/share/icons/Papirus-Light/48x48/categories/kdeconnect.svg" ><action name="Execute"><command><![CDATA[kdeconnect-sms]]></command></action></item>
+<item label="Open On Connected Device Via KDE Connect" icon="/usr/share/icons/Papirus-Light/48x48/categories/kdeconnect.svg" ><action name="Execute"><command><![CDATA[kdeconnect-handler --open]]></command></action></item>
+<item label="PuTTY SSH Client" icon="/usr/share/pixmaps/putty.png" ><action name="Execute"><command><![CDATA[putty]]></command></action></item>
+<item label="Qutebrowser" icon="/usr/share/pixmaps/qutebrowser.xpm" ><action name="Execute"><command><![CDATA[qutebrowser]]></command></action></item>
+<item label="VNC Viewer" icon="/usr/share/icons/hicolor/48x48/apps/vncviewer48x48.png" ><action name="Execute"><command><![CDATA[vncviewer]]></command></action></item>
+<item label="Web Browser" icon="/usr/share/icons/Papirus-Light/48x48/categories/web-browser.svg" ><action name="Execute"><command><![CDATA[/usr/bin/x-www-browser]]></command></action></item>
+</menu>
+<menu id="openbox-Multimedia" label="Multimedia" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-multimedia.svg">
+<item label="Mpv Media Player" icon="/usr/share/icons/Papirus-Light/48x48/categories/mpv.svg" ><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+<item label="MuseScore 2" icon="/usr/share/icons/Papirus-Light/48x48/categories/mscore.svg" ><action name="Execute"><command><![CDATA[mscore]]></command></action></item>
+<item label="OpenShot Video Editor" icon="/usr/share/pixmaps/openshot-qt.svg" ><action name="Execute"><command><![CDATA[openshot-qt]]></command></action></item>
+<item label="PNMixer" icon="/usr/share/icons/Papirus-Light/48x48/categories/pnmixer.svg" ><action name="Execute"><command><![CDATA[pnmixer]]></command></action></item>
+<item label="PulseAudio Volume Control" icon="/usr/share/icons/Papirus-Light/48x48/categories/multimedia-volume-control.svg" ><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+<item label="QjackCtl" icon="/usr/share/icons/Papirus-Light/48x48/categories/qjackctl.svg" ><action name="Execute"><command><![CDATA[qjackctl]]></command></action></item>
+<item label="QStopMotion" icon="/usr/share/icons/hicolor/48x48/apps/qstopmotion.png" ><action name="Execute"><command><![CDATA[qstopmotion]]></command></action></item>
+<item label="Stopmotion" icon="/usr/share/pixmaps/stopmotion.xpm" ><action name="Execute"><command><![CDATA[stopmotion]]></command></action></item>
+<item label="VLC Media Player" icon="/usr/share/icons/Papirus-Light/48x48/categories/vlc.svg" ><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+</menu>
+<menu id="openbox-Office" label="Office" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-office.svg">
+<item label="Evolution" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.gnome.Evolution.svg" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=evolution --file-forwarding org.gnome.Evolution @@u %U @@]]></command></action></item>
+<item label="LibreOffice" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-startcenter.svg" ><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+<item label="LibreOffice Base" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-base.svg" ><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+<item label="LibreOffice Calc" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-calc.svg" ><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+<item label="LibreOffice Draw" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-draw.svg" ><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+<item label="LibreOffice Impress" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-impress.svg" ><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+<item label="LibreOffice Math" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-math.svg" ><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+<item label="LibreOffice Writer" icon="/usr/share/icons/Papirus-Light/48x48/categories/libreoffice-writer.svg" ><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+<item label="Okular" icon="/usr/share/icons/Papirus-Light/48x48/categories/okular.svg" ><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+<item label="PDF Arranger" icon="/usr/share/icons/hicolor/48x48/apps/com.github.jeromerobert.pdfarranger.png" ><action name="Execute"><command><![CDATA[pdfarranger]]></command></action></item>
+<item label="TeXworks" icon="/usr/share/pixmaps/TeXworks.png" ><action name="Execute"><command><![CDATA[texworks]]></command></action></item>
+<item label="Xournal++" icon="/usr/share/icons/Papirus-Light/48x48/categories/com.github.xournalpp.xournalpp.svg" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=xournalpp --file-forwarding com.github.xournalpp.xournalpp @@ %f @@]]></command></action></item>
+</menu>
+<menu id="openbox-Other" label="Other" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-other.svg">
+<item label="Evolution Alarm Notify" icon="/usr/share/icons/Papirus-Light/24x24/actions/appointment-soon.svg" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=/app/libexec/evolution-data-server/evolution-alarm-notify org.gnome.Evolution]]></command></action></item>
+</menu>
+<menu id="openbox-Settings" label="Settings" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-desktop-gestures-touch.svg">
+<item label="Add / Remove Software" icon="/usr/share/icons/Papirus-Light/48x48/categories/system-software-install.svg" ><action name="Execute"><command><![CDATA[pi-packages]]></command></action></item>
+<item label="Advanced Network Configuration" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-system-network.svg" ><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+<item label="Appearance Settings" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-desktop-theme.svg" ><action name="Execute"><command><![CDATA[env SUDO_ASKPASS=/usr/lib/pipanel/pwdpip.sh pipanel]]></command></action></item>
+<item label="Bluetooth Adapters" icon="/usr/share/icons/Papirus-Light/48x48/devices/blueman-device.svg" ><action name="Execute"><command><![CDATA[blueman-adapters]]></command></action></item>
+<item label="Bluetooth Manager" icon="/usr/share/icons/Papirus-Light/48x48/categories/blueman.svg" ><action name="Execute"><command><![CDATA[blueman-manager]]></command></action></item>
+<item label="Customize Look And Feel" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-desktop-theme.svg" ><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+<item label="Desktop Preferences" icon="/usr/share/icons/Papirus-Light/48x48/places/user-desktop.svg" ><action name="Execute"><command><![CDATA[pcmanfm --desktop-pref]]></command></action></item>
+<item label="Desktop Session Settings" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-desktop.svg" ><action name="Execute"><command><![CDATA[lxsession-edit]]></command></action></item>
+<item label="KDE Connect Settings" icon="/usr/share/icons/Papirus-Light/48x48/categories/kdeconnect.svg" ><action name="Execute"><command><![CDATA[kdeconnect-settings]]></command></action></item>
+<item label="Keyboard And Mouse" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-desktop-peripherals.svg" ><action name="Execute"><command><![CDATA[lxinput]]></command></action></item>
+<item label="Login Window" icon="/usr/share/icons/Papirus-Light/48x48/categories/lightdm-settings.svg" ><action name="Execute"><command><![CDATA[pkexec lightdm-settings]]></command></action></item>
+<item label="Main Menu Editor" icon="/usr/share/icons/Papirus-Light/48x48/categories/alacarte.svg" ><action name="Execute"><command><![CDATA[alacarte]]></command></action></item>
+<item label="Monitor Settings" icon="/usr/share/icons/Papirus-Light/48x48/devices/video-display.svg" ><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+<item label="Openbox Configuration Manager" icon="/usr/share/pixmaps/obconf.png" ><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+<item label="Package Sources" icon="/usr/share/icons/Papirus-Light/48x48/categories/gpk-prefs.svg" ><action name="Execute"><command><![CDATA[pi-gpk-prefs]]></command></action></item>
+<item label="Print Settings" icon="/usr/share/icons/Papirus-Light/48x48/devices/printer.svg" ><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+<item label="Qt5 Settings" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-desktop-theme.svg" ><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+<item label="Raspberry Pi Configuration" icon="/usr/share/icons/Papirus-Light/48x48/categories/rpi.svg" ><action name="Execute"><command><![CDATA[env SUDO_ASKPASS=/usr/lib/rc-gui/pwdrcg.sh sudo -AE rc_gui]]></command></action></item>
+<item label="Recommended Software" icon="/usr/share/icons/Papirus-Light/48x48/categories/rpi.svg" ><action name="Execute"><command><![CDATA[env SUDO_ASKPASS=/usr/lib/rp-prefapps/pwdrpp.sh sudo -AE rp-prefapps]]></command></action></item>
+<item label="Screen Configuration" icon="/usr/share/icons/Papirus-Light/48x48/devices/computer.svg" ><action name="Execute"><command><![CDATA[env SUDO_ASKPASS=/usr/lib/arandr/pwdarandr.sh sudo -AE arandr]]></command></action></item>
+<item label="Setup Hot Keys" icon="/usr/share/icons/Papirus-Light/48x48/categories/preferences-desktop-keyboard.svg" ><action name="Execute"><command><![CDATA[lxhotkey --gui=gtk]]></command></action></item>
+<item label="TeXdoctk" ><action name="Execute"><command><![CDATA[texdoctk]]></command></action></item>
+<item label="Tint2 Settings" icon="/usr/share/icons/Papirus-Light/48x48/categories/tint2conf.svg" ><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+</menu>
+<menu id="openbox-System" label="System" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-system.svg">
+<item label="Add / Remove Software" icon="/usr/share/icons/Papirus-Light/48x48/categories/system-software-install.svg" ><action name="Execute"><command><![CDATA[pi-packages]]></command></action></item>
+<item label="Avahi Zeroconf Browser" icon="/usr/share/icons/Papirus-Light/48x48/devices/network-wired.svg" ><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+<item label="Dconf Editor" icon="/usr/share/icons/Papirus-Light/48x48/categories/ca.desrt.dconf-editor.svg" ><action name="Execute"><command><![CDATA[dconf-editor]]></command></action></item>
+<item label="File Manager PCManFM" icon="/usr/share/icons/Papirus-Light/48x48/categories/system-file-manager.svg" ><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+<item label="Foot" icon="/usr/share/icons/hicolor/48x48/apps/foot.png" ><action name="Execute"><command><![CDATA[foot]]></command></action></item>
+<item label="Foot Server" icon="/usr/share/icons/hicolor/48x48/apps/foot.png" ><action name="Execute"><command><![CDATA[foot --server]]></command></action></item>
+<item label="Htop" icon="/usr/share/pixmaps/htop.png" ><action name="Execute"><command><![CDATA[xterm -e htop]]></command></action></item>
+<item label="Kitty" icon="/usr/share/icons/Papirus-Light/48x48/categories/kitty.svg" ><action name="Execute"><command><![CDATA[kitty]]></command></action></item>
+<item label="Login Window" icon="/usr/share/icons/Papirus-Light/48x48/categories/lightdm-settings.svg" ><action name="Execute"><command><![CDATA[pkexec lightdm-settings]]></command></action></item>
+<item label="LXTerminal" icon="/usr/share/icons/Papirus-Light/48x48/categories/lxterminal.svg" ><action name="Execute"><command><![CDATA[lxterminal]]></command></action></item>
+<item label="OpenSC Notify" icon="/usr/share/icons/Papirus-Light/48x48/categories/utilities-system-monitor.svg" ><action name="Execute"><command><![CDATA[/usr/bin/opensc-notify]]></command></action></item>
+<item label="Package Install" icon="/usr/share/icons/Papirus-Light/48x48/categories/system-software-install.svg" ><action name="Execute"><command><![CDATA[pi-gpk-install-local-file]]></command></action></item>
+<item label="Package Log" icon="/usr/share/icons/Papirus-Light/48x48/categories/gpk-log.svg" ><action name="Execute"><command><![CDATA[pi-gpk-log]]></command></action></item>
+<item label="Package Updater" icon="/usr/share/icons/Papirus-Light/48x48/categories/system-software-update.svg" ><action name="Execute"><command><![CDATA[pi-gpk-update-viewer]]></command></action></item>
+<item label="Print Settings" icon="/usr/share/icons/Papirus-Light/48x48/devices/printer.svg" ><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+<item label="Ranger" icon="/usr/share/icons/Papirus-Light/48x48/categories/utilities-terminal.svg" ><action name="Execute"><command><![CDATA[xterm -e ranger]]></command></action></item>
+<item label="Software Install" icon="/usr/share/icons/Papirus-Light/48x48/categories/system-software-install.svg" ><action name="Execute"><command><![CDATA[pi-gpk-dbus-service]]></command></action></item>
+<item label="Task Manager" icon="/usr/share/icons/Papirus-Light/48x48/categories/utilities-system-monitor.svg" ><action name="Execute"><command><![CDATA[lxtask]]></command></action></item>
+<item label="Terminal Emulator" icon="/usr/share/icons/Papirus-Light/48x48/categories/terminal.svg" ><action name="Execute"><command><![CDATA[/usr/bin/x-terminal-emulator]]></command></action></item>
+<item label="Tint2" icon="/usr/share/icons/Papirus-Light/48x48/categories/tint2.svg" ><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+</menu>
+<menu id="openbox-Utilities" label="Utilities" icon="/usr/share/icons/Papirus-Light/48x48/categories/applications-utilities.svg">
+<item label="Authenticator" icon="/var/lib/flatpak/exports/share/icons/hicolor/scalable/apps/com.belmoussaoui.Authenticator.svg" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=authenticator --file-forwarding com.belmoussaoui.Authenticator @@u %u @@]]></command></action></item>
+<item label="Backups" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.gnome.DejaDup.svg" ><action name="Execute"><command><![CDATA[deja-dup]]></command></action></item>
+<item label="Barrier" icon="/usr/share/icons/Papirus-Light/48x48/categories/barrier.svg" ><action name="Execute"><command><![CDATA[barrier]]></command></action></item>
+<item label="CMatrix" icon="/usr/share/pixmaps/htop.png" ><action name="Execute"><command><![CDATA[xterm -e cmatrix]]></command></action></item>
+<item label="Debian Reference" icon="/usr/share/pixmaps/debian-reference.png" ><action name="Execute"><command><![CDATA[debian-reference]]></command></action></item>
+<item label="File Manager PCManFM" icon="/usr/share/icons/Papirus-Light/48x48/categories/system-file-manager.svg" ><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+<item label="Galculator" icon="/usr/share/pixmaps/galculator.xpm" ><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+<item label="Help" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.gnome.Yelp.svg" ><action name="Execute"><command><![CDATA[yelp]]></command></action></item>
+<item label="Image Viewer" icon="/usr/share/icons/Papirus-Light/48x48/categories/gpicview.svg" ><action name="Execute"><command><![CDATA[gpicview]]></command></action></item>
+<item label="Imager" icon="/usr/share/icons/Papirus-Light/48x48/categories/rpi-imager.svg" ><action name="Execute"><command><![CDATA[rpi-imager]]></command></action></item>
+<item label="Marker" icon="/usr/share/icons/Papirus-Light/48x48/categories/com.github.fabiocolacio.marker.svg" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=marker --file-forwarding com.github.fabiocolacio.marker @@u %u @@]]></command></action></item>
+<item label="Mousepad" icon="/usr/share/icons/Papirus-Light/48x48/categories/org.xfce.mousepad.svg" ><action name="Execute"><command><![CDATA[mousepad]]></command></action></item>
+<item label="NBTExplorer" icon="/var/lib/flatpak/exports/share/icons/hicolor/128x128/apps/com.jaquadro.NBTExplorer.png" ><action name="Execute"><command><![CDATA[/usr/bin/flatpak run --branch=stable --arch=aarch64 --command=nbtexplorer com.jaquadro.NBTExplorer]]></command></action></item>
+<item label="Neovim" icon="/usr/share/pixmaps/nvim.png" ><action name="Execute"><command><![CDATA[xterm -e nvim]]></command></action></item>
+<item label="Nitrogen" icon="/usr/share/icons/Papirus-Light/48x48/categories/nitrogen.svg" ><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+<item label="PDF Viewer" icon="/usr/share/icons/Papirus-Light/48x48/categories/xpdf.svg" ><action name="Execute"><command><![CDATA[qpdfview --unique]]></command></action></item>
+<item label="Raspberry Pi Diagnostics" icon="/usr/share/icons/Papirus-Light/48x48/categories/rpi.svg" ><action name="Execute"><command><![CDATA[agnostics]]></command></action></item>
+<item label="SD Card Copier" icon="/usr/share/icons/Papirus-Light/48x48/devices/media-removable.svg" ><action name="Execute"><command><![CDATA[env SUDO_ASKPASS=/usr/lib/piclone/pwdpic.sh sudo -AE dbus-launch piclone]]></command></action></item>
+<item label="Terminal Emulator" icon="/usr/share/icons/Papirus-Light/48x48/categories/terminal.svg" ><action name="Execute"><command><![CDATA[/usr/bin/x-terminal-emulator]]></command></action></item>
+<item label="Vim" icon="/usr/share/icons/Papirus-Light/48x48/categories/gvim.svg" ><action name="Execute"><command><![CDATA[xterm -e vim]]></command></action></item>
+<item label="VSCodium - URL Handler" icon="/usr/share/pixmaps/vscodium.png" ><action name="Execute"><command><![CDATA[/usr/share/codium/codium --open-url]]></command></action></item>
+<item label="Xarchiver" icon="/usr/share/icons/Papirus-Light/48x48/categories/xarchiver.svg" ><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
+<item label="Xournal" icon="/usr/share/icons/Papirus-Light/48x48/categories/xournal.svg" ><action name="Execute"><command><![CDATA[xournal]]></command></action></item>
+</menu>
+</openbox_pipe_menu>

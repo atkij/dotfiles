@@ -1,0 +1,69 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+
+    // Choose the order of the modules
+    "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
+    "modules-center": ["custom/clock"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "tray"],
+
+    // Modules configuration
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}"
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+
+    "custom/clock": {
+        "exec": "date +'%a %d %b %H:%M'",
+	"format": "{}",
+	"interval": 1
+    },
+
+
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false,
+	"on-click": "lxterminal -e htop"
+    },
+
+    "memory": {
+        "format": "{}% ",
+	"tooltip": false,
+	"on-click": "lxterminal -e htop"
+    },
+
+    "temperature": {
+        "critical-threshold": 70,
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": [""]
+    },
+
+    "network": {
+        "format-wifi": "{essid} ",
+        "format-ethernet": "{ipaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ipaddr} ",
+	"tooltip": false
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{volume}% {icon}",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+	"tooltip": false,
+        "on-click": "pavucontrol"
+    },
+}

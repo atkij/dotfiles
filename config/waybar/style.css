@@ -1,0 +1,113 @@
+* {
+    border: none;
+    border-radius: 0;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: PibotoLt, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #111111;
+    color: #eeeeec;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #eeeeec;
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+    box-shadow: inset 0 -3px #d3d7cf;
+}
+
+#workspaces button.focused {
+    box-shadow: inset 0 -3px #eeeeec;
+}
+
+#workspaces button.urgent {
+    box-shadow: inset 0 -3px #cd0000;
+}
+
+#mode {
+    box-shadow: inset 0 -3px #ed2929;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd {
+    padding: 0 10px;
+    margin: 0 4px;
+    color: #eeeeec;
+}
+
+#window,
+#workspaces {
+    margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+label:focus {
+    background-color: #ffffff;
+}
+
+#cpu {
+    box-shadow: inset 0 -3px #8ae234;
+}
+
+#memory {
+    box-shadow: inset 0 -3px #fce94f;
+}
+
+#network {
+    box-shadow: inset 0 -3px #729fcf;
+}
+
+#pulseaudio {
+    box-shadow: inset 0 -3px #ad7fa8;
+}
+
+#temperature {
+    box-shadow: inset 0 -3px #ff8800;
+}
+
+#tray {
+    box-shadow: inset 0 -3px #cd0000;
+}
+
